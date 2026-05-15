@@ -11,7 +11,3 @@ Thumbs.db
 # Local IDE
 .vscode/
 .idea/
-
-# Large generated files
-embeddings/*.bin
-embeddings/*.pkl
