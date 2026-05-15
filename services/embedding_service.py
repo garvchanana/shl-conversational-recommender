@@ -1,3 +1,4 @@
+import os
 import json
 import pickle
 import faiss
@@ -95,6 +96,7 @@ def main():
 
     print("Saving FAISS index...\n")
 
+    os.makedirs("embeddings", exist_ok=True)
     faiss.write_index(index, FAISS_INDEX_FILE)
 
     print("Saving metadata...\n")
