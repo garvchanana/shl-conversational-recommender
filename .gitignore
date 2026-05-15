@@ -11,3 +11,6 @@ Thumbs.db
 # Local IDE
 .vscode/
 .idea/
+
+embeddings/*.bin
+embeddings/*.pkl
